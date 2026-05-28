@@ -55,3 +55,5 @@ Para cambiar el comportamiento de las pruebas, se debe editar las variables `con
 * `kSweepN0`: Si se establece en true, el programa busca el mejor tamaño de corte híbrido (n_0) automáticamente probando valores desde kN0Min hasta kN0Max.
 
 Para intercambiar cuál algoritmo medir en el benchmark (Clásico, Strassen puro, o Híbrido), comentar/descomentar las respectivas líneas Matriz C = ... (cerca de la línea 133) en uhr.cpp.
+
+La suite uhr.cpp fue creada por nuestro excelente ayudante Leonardo Lovera. Para más detalles visitar el siguiente repositorio: https://github.com/leonardlover/uhr.git
